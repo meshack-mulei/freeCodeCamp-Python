@@ -1,2 +1,2 @@
 # freeCodeCamp-Python
-My solutions and projects for the freeCodeCamp Python Certification.
+My Workshop, Lab, and Certification Projects for the freeCodeCamp Python Certification.
