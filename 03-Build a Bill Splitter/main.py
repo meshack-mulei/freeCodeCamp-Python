@@ -21,3 +21,9 @@ print('Bill per person:', final_bill)
 
 each_pays = round(final_bill, 2)
 print('Each person pays:', each_pays)
+# Output:
+# Total bill so far: 198.82999999999998
+# Tip amount: 49.707499999999996
+# Total with tip: 248.53749999999998
+# Bill per person: 62.13437499999999
+# Each person pays: 62.13
