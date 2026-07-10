@@ -21,3 +21,4 @@ else:
         print('True')
     else:
         print('False')
+# Output: True
