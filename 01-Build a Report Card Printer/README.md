@@ -1,17 +1,12 @@
 ## Report Card Printer
 
-Demonstrates type checking and variable initialization for individual student records prior to generating formatted report cards:
+Demonstrates fundamental Python data types and runtime type inspection:
 
-- **Student Attribute Management**: Captures key student properties including string identifiers (`name`), boolean enrollment status (`is_student`), integer age (`age`), and floating-point academic scores (`score`).
-- **Defensive Type Checking**: Utilizes `isinstance()` to validate numeric types (`float`) before processing grade logic, preventing runtime errors during score aggregation.
+- **Data Types Covered**: Strings (`str`), Booleans (`bool`), Integers (`int`), and Floating-point numbers (`float`).
+- **Type Inspection**: Uses `type()` to output runtime classes and `isinstance()` to evaluate data type conditions programmatically.
 
 ```python
-# Student record attribute definition & runtime validation
-name = 'Alice'
-is_student = True
-age = 20
+# Type inspection example
 score = 80.5
-
-# Ensure score is a valid float before generating report card metrics
-if isinstance(score, float):
-    print(f"Validated score for {name}: {score}")
+print(isinstance(score, float)) # Returns True
+print(score, type(score))       # Outputs: 80.5 <class 'float'>
